@@ -1,0 +1,65 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\CharacterImages\arlecchino.png" />
+    <None Remove="Resources\CharacterImages\furina.png" />
+    <None Remove="Resources\CharacterImages\Wanderer.png" />
+    <None Remove="Resources\Data\Arlecchino.json" />
+    <None Remove="Resources\Data\CharactersTest.json" />
+    <None Remove="Resources\Data\Furina.json" />
+    <None Remove="Resources\Data\Wanderer.json" />
+    <None Remove="Resources\NationBg\Fontaine.jpg" />
+    <None Remove="Resources\NationBg\Inazuma.jpg" />
+    <None Remove="Resources\NationBg\Liyue.jpg" />
+    <None Remove="Resources\NationBg\Mondstadt.jpg" />
+    <None Remove="Resources\NationBg\Snezhnaya.jpg" />
+    <None Remove="Resources\NationBg\Sumeru.jpg" />
+    <None Remove="Resources\Element_Icons\anemo.png" />
+    <None Remove="Resources\Element_Icons\cryo.png" />
+    <None Remove="Resources\Element_Icons\dendro.png" />
+    <None Remove="Resources\Element_Icons\electro.png" />
+    <None Remove="Resources\Element_Icons\geo.png" />
+    <None Remove="Resources\Element_Icons\hydro.png" />
+    <None Remove="Resources\Element_Icons\pyro.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Data\Arlecchino.json" />
+    <EmbeddedResource Include="Resources\Data\CharactersTest.json" />
+    <EmbeddedResource Include="Resources\Data\Furina.json" />
+    <EmbeddedResource Include="Resources\Data\Wanderer.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\CharacterImages\arlecchino.png" />
+    <Resource Include="Resources\CharacterImages\furina.png" />
+    <Resource Include="Resources\CharacterImages\Wanderer.png" />
+    <Resource Include="Resources\NationBg\fontaine.jpg" />
+    <Resource Include="Resources\NationBg\inazuma.jpg" />
+    <Resource Include="Resources\NationBg\liyue.jpg" />
+    <Resource Include="Resources\NationBg\mondstadt.jpg" />
+    <Resource Include="Resources\NationBg\snezhnaya.jpg" />
+    <Resource Include="Resources\NationBg\sumeru.jpg" />
+    <Resource Include="Resources\Element_Icons\anemo.png" />
+    <Resource Include="Resources\Element_Icons\cryo.png" />
+    <Resource Include="Resources\Element_Icons\dendro.png" />
+    <Resource Include="Resources\Element_Icons\electro.png" />
+    <Resource Include="Resources\Element_Icons\geo.png" />
+    <Resource Include="Resources\Element_Icons\hydro.png" />
+    <Resource Include="Resources\Element_Icons\pyro.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>

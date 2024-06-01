@@ -1,0 +1,896 @@
+[
+  {
+    "name": "Arlecchino",
+    "title": "Dire Balemoon",
+    "vision": "Pyro",
+    "weapon": "Polearm",
+    "gender": "Female",
+    "nation": "Snezhnaya",
+    "affiliation": "Fatui",
+    "specialDish": "Hearthfire's Trail",
+    "rarity": 5,
+    "release": "2024-04-24",
+    "constellation": "Ignis Purgatorius",
+    "birthday": "0000-08-22",
+    "description": "\"The Knave,\" Fourth of the Fatui Harbingers. A poised, ruthless diplomat. To the children in the House of the Hearth, she is their feared yet dependable \"Father.\"",
+    "skillTalents": [
+      {
+        "name": "Normal Attack: Invitation to a Beheading",
+        "unlock": "Normal Attack",
+        "description": "Normal Attack\nPerforms up to 6 consecutive spear strikes.\nCharged Attack\nConsumes a fixed amount of Stamina, dashing toward a nearby opponent and cleaving once.\nContinuously holding this button will cause Arlecchino to consume Stamina and engage in up to 5s of high-speed movement.\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\nMasque of the Red Death\nWhen Arlecchino has a Bond of Life equal to or greater than 30% of her Max HP, she will enter the \"Masque of the Red Death\" state, where her Normal, Charged, and Plunging Attacks will be converted to deal Pyro DMG. This cannot be overridden.\nWhen in the \"Masque of the Red Death\" state, Arlecchino's Normal Attacks will deal extra DMG to opponents on hit that scales off her ATK multiplied by a certain ratio of her current Bond of Life percentage. This will consume 7.5% of said current Bond of Life. Her Bond of Life can be consumed this way every 0.03s. When her Bond of Life is consumed in this manner, All Is Ash's CD will decrease by 0.8s.",
+        "upgrades": [
+          {
+            "name": "Masque of the Red Death Increase",
+            "value": "120.4"
+          },
+          {
+            "name": "1-Hit DMG",
+            "value": "47.5%"
+          },
+          {
+            "name": "2-Hit DMG",
+            "value": "52.11%"
+          },
+          {
+            "name": "3-Hit DMG",
+            "value": "65.39%"
+          },
+          {
+            "name": "4-Hit DMG",
+            "value": "37.15% + 37.15%"
+          },
+          {
+            "name": "5-Hit DMG",
+            "value": "69.98%"
+          },
+          {
+            "name": "6-Hit DMG",
+            "value": "85.38%"
+          },
+          {
+            "name": "Charged Attack DMG",
+            "value": "90.82%"
+          },
+          {
+            "name": "Charged Attack Stamina Cost",
+            "value": "25"
+          },
+          {
+            "name": "High-Speed Movement Stamina Cost",
+            "value": "40/s"
+          },
+          {
+            "name": "Plunge DMG",
+            "value": "63.93%"
+          },
+          {
+            "name": "Low / High Plunge DMG",
+            "value": "127.84% / 159.68%"
+          }
+        ],
+        "type": "NORMAL_ATTACK"
+      },
+      {
+        "name": "All Is Ash",
+        "unlock": "Elemental Skill",
+        "description": "Summons forth Balemoon Bloodfire, dealing Pyro DMG to multiple nearby opponents and performing a dash-cleave against one of them, dealing AoE Pyro DMG.\nOpponents hit by the aforementioned attack will have a Blood-Debt Directive applied to them.\nBlood-Debt Directive\nLasts 30s. Every 5s, it will deal 1 instance of Pyro DMG to the opponent. Max 2 instances. This DMG will be considered Elemental Skill DMG.\nWhen Arlecchino uses a Charged Attack or her Elemental Burst, Balemoon Rising, she will absorb and clear nearby Blood-Debt Directives. Each Directive absorbed grants her a Bond of Life worth 65% of her Max HP.\nThe maximum value of the Bond of Life she can be granted through Blood-Debt Directives within 35s after using her Elemental Skill is 145% of her Max HP. Using the Elemental Skill again during this duration will restart the count on duration and the limit on the value of Bond of Life she may gain from Blood-Debt Directives.",
+        "upgrades": [
+          {
+            "name": "Spike DMG",
+            "value": "14.84%"
+          },
+          {
+            "name": "Cleave DMG",
+            "value": "133.56%"
+          },
+          {
+            "name": "Blood-Debt Directive DMG",
+            "value": "31.8%"
+          },
+          {
+            "name": "CD",
+            "value": "30s"
+          }
+        ],
+        "type": "ELEMENTAL_SKILL"
+      },
+      {
+        "name": "Balemoon Rising",
+        "unlock": "Elemental Burst",
+        "description": "Arlecchino's great wing of Balemoon Bloodfire beats as she absorbs and clears Blood-Debt Directives around her. She deals AoE Pyro DMG before clearing the CD of All Is Ash and healing herself. The healing is based on her Bond of Life value and ATK.",
+        "upgrades": [
+          {
+            "name": "Skill DMG",
+            "value": "370.4%"
+          },
+          {
+            "name": "Amount of HP Restored",
+            "value": "150% Bond of Life + 150% ATK"
+          },
+          {
+            "name": "CD",
+            "value": "15s"
+          },
+          {
+            "name": "Energy Cost",
+            "value": "60"
+          }
+        ],
+        "type": "ELEMENTAL_BURST"
+      }
+    ],
+    "passiveTalents": [
+      {
+        "name": "Agony Alone May Be Repaid",
+        "unlock": "Unlocked at Ascension 1",
+        "description": "Blood-Debt Directives have the following characteristics:\nArlecchino will be granted a Bond of Life worth 130% of her Max HP when an opponent to which she herself applied a Directive is defeated.\n5s after a Directive is applied, it will be upgraded to a Blood-Debt Due. When absorbed, it will instead grant Arlecchino a Bond of Life worth 130%.\nA Bond of Life created in the aforementioned ways cannot exceed the original limit on the value of Bonds of Life obtained through All Is Ash.",
+        "level": 1
+      },
+      {
+        "name": "Strength Alone Can Defend",
+        "unlock": "Unlocked at Ascension 4",
+        "description": "Arlecchino gains 1% All Elemental and Physical RES for every 100 ATK she has in excess of 1,000. The maximum RES increase she can gain this way for each is 20%.",
+        "level": 4
+      },
+      {
+        "name": "The Balemoon Alone May Know",
+        "unlock": "Unlocked Automatically",
+        "description": "While in combat, Arlecchino gains a 40% Pyro DMG Bonus and can only be healed through Balemoon Rising."
+      }
+    ],
+    "constellations": [
+      {
+        "name": "\"All Reprisals and Arrears Are Mine to Bear...\"",
+        "unlock": "Constellation Lv. 1",
+        "description": "Masque of the Red Death is further enhanced, the value of the increase is 100%. Additionally, Arlecchino's interruption resistance is increased when she performs Normal or Charged Attacks while affected by the Masque of the Red Death.",
+        "level": 1
+      },
+      {
+        "name": "\"All Rewards and Retribution, Mine to Bestow...\"",
+        "unlock": "Constellation Lv. 2",
+        "description": "Blood-Debt Directives are now already Blood-Debt Due when first applied.\nWhen Arlecchino absorbs such a Due, she unleashes Balemoon Bloodfire in front of her, dealing 900% of her ATK as AoE Pyro DMG and increasing her All Elemental RES and Physical RES by 20% for 15s. This effect can trigger once every 10s.\nYou must first unlock the Passive Talent \"Agony Alone May Be Repaid.\"",
+        "level": 2
+      },
+      {
+        "name": "\"You Shall Become a New Member of Our Family...\"",
+        "unlock": "Constellation Lv. 3",
+        "description": "Increases the Level of Normal Attack: Invitation to a Beheading by 3.\nMaximum upgrade level is 15.",
+        "level": 3
+      },
+      {
+        "name": "\"You Shall Love and Protect Each Other Henceforth...\"",
+        "unlock": "Constellation Lv. 4",
+        "description": "When Arlecchino successfully absorbs a Blood-Debt Directive, Balemoon Rising's CD will decrease by 2s and 15 Energy will be restored to her. This effect can occur once every 10s.",
+        "level": 4
+      },
+      {
+        "name": "\"For Alone, We Are as Good as Dead...\"",
+        "unlock": "Constellation Lv. 5",
+        "description": "Increases the Level of Balemoon Rising by 3.\nMaximum upgrade level is 15.",
+        "level": 5
+      },
+      {
+        "name": "\"From This Day On, We Shall Delight in New Life Together.\"",
+        "unlock": "Constellation Lv. 6",
+        "description": "The DMG of Balemoon Rising is increased by Arlecchino's ATK multiplied by 700% of Arlecchino's current Bond of Life percentage.\nFor 20s after Arlecchino uses All Is Ash, both her Normal Attacks and Elemental Burst gain 10% increased CRIT Rate and 70% increased CRIT DMG. This effect can be triggered up to once every 15s.",
+        "level": 6
+      }
+    ],
+    "vision_key": "PYRO",
+    "weapon_type": "POLEARM"
+  },
+  {
+    "name": "Furina",
+    "title": "Endless Solo of Solitude",
+    "vision": "Hydro",
+    "weapon": "Sword",
+    "gender": "Female",
+    "nation": "Fontaine",
+    "affiliation": "Court of Fontaine",
+    "rarity": 5,
+    "release": "2023-11-08",
+    "constellation": "Animula Choragi",
+    "birthday": "0000-10-13",
+    "description": "The absolute focus of the stage of judgment, until the final applause sounds.",
+    "skillTalents": [
+      {
+        "name": "Soloist's Solicitation",
+        "unlock": "Normal Attack",
+        "description": "Normal Attack\nPerforms up to 4 consecutive strikes.\nCharged Attack\nConsumes a certain amount of Stamina to unleash a solo dance, dealing Physical DMG to nearby opponents and changing her Arkhe alignment. If Salon Members or Singer of Many Waters summoned by her Elemental Skill \"Salon Solitaire\" are present, their lineup will switch in response.\nArkhe: Seats Sacred and Secular\nAt intervals, when Furina's Normal Attacks hit, a Spiritbreath Thorn or a Surging Blade will descend based on her current alignment, dealing Hydro DMG based on her current alignment.\nWhen Furina takes the field, her starting Arkhe will be Ousia.\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+        "type": "NORMAL_ATTACK"
+      },
+      {
+        "name": "Salon Solitaire",
+        "unlock": "Elemental Skill",
+        "description": "Invites the guests of the Salon Solitaire to come forth and abet in Furina's performance. Will summon either the Salon Members or the Singer of Many Waters based on Furina's current Arkhe alignment.\nOusia\nFoaming bubbles like celebrants shall dance, dealing AoE Hydro DMG based on Furina's Max HP and summoning 3 Salon Members: the Ball Octopus-shaped Gentilhomme Usher, the Bubbly Seahorse-shaped Surintendante Chevalmarin, and the Armored Crab-shaped Mademoiselle Crabaletta.\nThey will attack nearby opponents at intervals, prioritizing the target of the active character, dealing Hydro DMG based on Max HP.\nWhen they attack, if character(s) with more than 50% HP are nearby, the Members will increase their current attack's power based on the number of such characters, and consume said characters' HP. If 1/2/3/4 (or more) characters meet these requirements, the Members' attacks will deal 110%/120%/130%/140% of their original DMG.\nPneuma\nSummons the Singer of Many Waters, who will heal nearby active character(s) based on Max HP at intervals.\nThe Salon Members and Singer of Many Waters share a duration, and when Furina uses her Charged Attack to change the guest type, the new guests will inherit the initial duration.\nWhile the Salon Members or the Singer of Many Waters is on the field, Furina can move on the water's surface.\nA fixed roster of regulars frequent Furina's Salon Solitaire. At other times, Mademoiselle Crabaletta, Surintendante Chevalmarin, and Gentilhomme Usher shall visit, and on gloomy Wednesdays, it is the singer who comes by.",
+        "type": "ELEMENTAL_SKILL"
+      },
+      {
+        "name": "Let the People Rejoice",
+        "unlock": "Elemental Burst",
+        "description": "Rouses the impulse to revel, creating a stage of foam that will deal AoE Hydro DMG based on Furina's Max HP and cause nearby party members to enter the Universal Revelry state: During this time, when nearby party members' HP increases or decreases, 1 Fanfare point will be granted to Furina for each percentage point of their Max HP by which their HP changes.\nAt the same time, Furina will increase the DMG dealt by and Incoming Healing Bonus of all nearby party members based on the amount of Fanfare she has.\nWhen the duration ends, Furina's Fanfare points will be cleared.\n\"Cheer! Give praise! Be awed! Raise your glasses! Every night bereft of banqueting is a sordid squandering of sore, sober daylight... And, uh, those who are not yet of age may have grape juice instead!\"",
+        "type": "ELEMENTAL_BURST"
+      }
+    ],
+    "passiveTalents": [
+      {
+        "name": "The Sea Is My Stage",
+        "unlock": "Unlocked at Ascension 1",
+        "description": "Xenochromatic Fontemer Aberrant ability CD decreased by 30%.",
+        "level": 1
+      },
+      {
+        "name": "Endless Waltz",
+        "unlock": "Unlocked at Ascension 4",
+        "description": "When the active character in your party receives healing, if the source of the healing is not Furina herself and the healing overflows, then Furina will heal a nearby party member for 2% of their Max HP once every 2s within the next 4s.",
+        "level": 4
+      },
+      {
+        "name": "Unheard Confession",
+        "unlock": "Unlocked Automatically",
+        "description": "Every 1,000 points of Furina's Max HP can buff the different Arkhe-aligned Salon Solitaire in the following ways:\nWill increase Salon Member DMG dealt by 0.7%, up to a maximum of 28%.\nWill decrease active character healing interval of the Singer of Many Waters by 0.4%, up to a maximum of 16%."
+      }
+    ],
+    "constellations": [
+      {
+        "name": "\"Love Is a Rebellious Bird That None Can Tame\"",
+        "unlock": "Constellation Lv. 1",
+        "description": "When using Let the People Rejoice, Furina will gain 150 Fanfare.\nAdditionally, Furina's Fanfare limit is increased by 100.",
+        "level": 1
+      },
+      {
+        "name": "\"A Woman Adapts Like Duckweed in Water\"",
+        "unlock": "Constellation Lv. 2",
+        "description": "While Let the People Rejoice lasts, Furina's Fanfare gain from increases or decreases in nearby characters' HP is increased by 250%. Each point of Fanfare above the limit will increase Furina's Max HP by 0.35%. Her maximum Max HP increase is 140%.",
+        "level": 2
+      },
+      {
+        "name": "\"My Secret Is Hidden Within Me, No One Will Know My Name\"",
+        "unlock": "Constellation Lv. 3",
+        "description": "Increases the Level of Let the People Rejoice by 3.\nMaximum upgrade level is 15.",
+        "level": 3
+      },
+      {
+        "name": "\"They Know Not Life, Who Dwelt in the Netherworld Not!\"",
+        "unlock": "Constellation Lv. 4",
+        "description": "When the Salon Members from Salon Solitaire hit an opponent, or the Singer of Many Waters restores HP to the active character, Furina will restore 4 Energy. This effect triggers once every 5s.",
+        "level": 4
+      },
+      {
+        "name": "\"His Name I Now Know, It Is...!\"",
+        "unlock": "Constellation Lv. 5",
+        "description": "Increases the Level of Salon Solitaire by 3.\nMaximum upgrade level is 15.",
+        "level": 5
+      },
+      {
+        "name": "\"Hear Me — Let Us Raise the Chalice of Love!\"",
+        "unlock": "Constellation Lv. 6",
+        "description": "When using Salon Solitaire, Furina gains \"Center of Attention\" for 10s.\nThroughout the duration, Furina's Normal Attacks, Charged Attacks, and Plunging Attacks are converted into Hydro DMG which cannot be overridden by any other elemental infusion. DMG is also increased by an amount equivalent to 18% of Furina's max HP.\nThroughout the duration, Furina's Normal Attacks (not including Arkhe: Seats Sacred and Secular Attacks), Charged Attacks, and the impact of Plunging Attacks will cause different effects up to every 0.1s after hitting opponents depending on her current Arkhe alignment:\nArkhe: Ousia\nEvery 1s, all nearby characters in the party will be healed by 4% of Furina's max HP, for a duration of 2.9s. Triggering this effect again will extend its duration.\nArkhe: Pneuma\nThis Normal Attack (not including Arkhe: Seats Sacred and Secular Attacks), Charged Attack, or Plunging Attack ground impact DMG will be further increased by an amount equivalent to 25% of Furina's max HP. When any of the attacks mentioned previously hit an opponent, all nearby characters in the party will consume 1% of their current HP.\nDuring the duration of each instance of \"Center of Attention,\" the above effects can be triggered up to 6 times. \"Center of Attention\" will end when its effects have triggered 6 times or when the duration expires.",
+        "level": 6
+      }
+    ],
+    "vision_key": "HYDRO",
+    "weapon_type": "SWORD"
+  },
+  {
+    "name": "Wanderer",
+    "title": "Eons Adrift",
+    "vision": "Anemo",
+    "weapon": "Catalyst",
+    "gender": "Male",
+    "nation": "Sumeru",
+    "affiliation": "None",
+    "rarity": 5,
+    "release": "2022-12-07",
+    "constellation": "Peregrinus",
+    "birthday": "0000-01-03",
+    "description": "A wayfaring figure whose identity is a mystery. He dresses like a mountain ascetic, but he certainly does not act the part. ",
+    "skillTalents": [
+      {
+        "name": "Yuuban Meigen",
+        "unlock": "Normal Attack",
+        "description": "Normal Attack\nPerforms up to 3 attacks using wind blades, dealing Anemo DMG.\nCharged Attack\nConsumes a certain amount of Stamina, gathers a build up of high wind pressure, and deals AoE Anemo DMG after a short casting time.\nPlunging Attack\nCalling upon the power of Anemo, the Wanderer plunges towards the ground from mid-air, damaging all opponents in his path. Deals AoE Anemo DMG upon impact with the ground.",
+        "upgrades": [
+          {
+            "name": "1-Hit DMG",
+            "value": "69%"
+          },
+          {
+            "name": "2-Hit DMG",
+            "value": "65%"
+          },
+          {
+            "name": "3-Hit DMG",
+            "value": "48% + 48%"
+          },
+          {
+            "name": "Charged Attack DMG",
+            "value": "132%"
+          },
+          {
+            "name": "Charged Attack Stamina Cost",
+            "value": "50"
+          },
+          {
+            "name": "Plunge DMG",
+            "value": "56.8%"
+          },
+          {
+            "name": "Low / High Plunge DMG",
+            "value": "114% / 142%"
+          }
+        ],
+        "type": "NORMAL_ATTACK"
+      },
+      {
+        "name": "Hanega: Song of the Wind",
+        "unlock": "Elemental Skill",
+        "description": "Concentrates the power of the winds to break free from the shackles of the earth, dealing AoE Anemo DMG before leaping into the air and entering the Windfavored state.\nWindfavored\nThe Wanderer cannot perform Plunging Attacks in this state. When he uses Normal and Charged Attacks, they will be converted into Kuugo: Fushoudan and Kuugo: Toufukai respectively; the DMG they deal and their AoE will be increased, and their DMG will be considered Normal and Charged Attack DMG respectively. Kuugo: Toufukai will not consume Stamina. The Wanderer will hover persistently during this time. While this state is active, the Wanderer's movements gain the following properties:\n- Persistently consumes Kuugoryoku Points to maintain this hovering state.\n- When sprinting, additional Kuugoryoku Points will be consumed for the Wanderer to accelerate mid-air. Holding sprint will cause persistent Kuugoryoku Point consumption to maintain speed. This effect will replace his default sprint.\n- Jumping expends extra Kuugoryoku Points to increase hovering height. Holding jump will cause persistent Kuugoryoku Point consumption to keep increasing hovering height.\nRunning out of Kuugoryoku Points will end the Windfavored state. A second cast during the duration of Windfavored will also end it.",
+        "upgrades": [
+          {
+            "name": "Skill DMG",
+            "value": "95%"
+          },
+          {
+            "name": "Normal Attack DMG",
+            "value": "133%"
+          },
+          {
+            "name": "Charged Attack DMG",
+            "value": "126%"
+          },
+          {
+            "name": "Initial Kuugoryoku Points",
+            "value": "100"
+          },
+          {
+            "name": "CD",
+            "value": "6s"
+          }
+        ],
+        "type": "ELEMENTAL_SKILL"
+      },
+      {
+        "name": "Kyougen: Five Ceremonial Plays",
+        "unlock": "Elemental Burst",
+        "description": "Compresses the atmosphere into a singlular vacuum that grinds all troubles away, dealing multiple instances of AoE Anemo DMG. If the character is in the Windfavored state due to the skill \"Hanega: Song of the Wind,\" Windfavored state will end after casting.",
+        "upgrades": [
+          {
+            "name": "Skill DMG",
+            "value": "147% x 5"
+          },
+          {
+            "name": "CD",
+            "value": "15s"
+          },
+          {
+            "name": "Energy Cost",
+            "value": "60"
+          }
+        ],
+        "type": "ELEMENTAL_BURST"
+      }
+    ],
+    "passiveTalents": [
+      {
+        "name": "Jade-Claimed Flower",
+        "unlock": "Unlocked at Ascension 1",
+        "description": "If Hanega: Song of the Wind comes into contact with Hydro/Pyro/Cryo/Electro when it is unleashed, this instance of the Windfavored state will obtain buffs according to the contacted element(s):\n- Hydro: Kuugoryoku Point cap increases by 20.\n- Pyro: ATK increases by 30%.\n- Cryo: CRIT Rate increases by 20%.\n- Electro: When Normal and Charged Attacks hit an opponent, 0.8 Energy will be restored. Energy can be restored this way every 0.2s.\nYou can have up to 2 different kinds of these buffs simultaneously.",
+        "level": 1
+      },
+      {
+        "name": "Gales of Reverie",
+        "unlock": "Unlocked at Ascension 4",
+        "description": "When the Wanderer hits opponents with Kuugo: Fushoudan or Kuugo: Toufukai in his Windfavored state, he has a 16% chance to obtain the Descent effect: The next time the Wanderer accelerates in mid-air while in this instance of the Windfavored state, this effect will be removed, this acceleration instance will not consume any Kuugoryoku Points, and he will fire off 4 wind arrows that deal 35% of his ATK as Anemo DMG each. For each Kuugo: Fushoudan and Kuugo: Toufukai that does not produce this effect, the next attack of those types will have a 12% increased chance of producing it. The calculation of the effect production is done once every 0.1s.",
+        "level": 4
+      },
+      {
+        "name": "Strum the Swirling Winds",
+        "unlock": "Unlocked Automatically",
+        "description": "Mora expended when ascending Bows and Catalysts is decreased by 50%."
+      }
+    ],
+    "constellations": [
+      {
+        "name": "Shoban: Ostentatious Plumage",
+        "unlock": "Constellation Lv. 1",
+        "description": "When in the Windfavored state, the Attack SPD of the Wanderer's Kuugo: Fushoudan and Kuugo: Toufukai is increased by 10%.\nAdditionally, the wind arrows fired by the Passive Talent \"Gales of Reverie\" will deal an additional 25% of his ATK as DMG. You must unlock the Passive Talent \"Gales of Reverie\" first.",
+        "level": 1
+      },
+      {
+        "name": "Niban: Moonlit Isle Amidst White Waves",
+        "unlock": "Constellation Lv. 2",
+        "description": "When in the Windfavored state, Kyougen: Five Ceremonial Plays will see its DMG increased by 4% per point of difference between the max amount of Kuugoryoku Points contrasted with Kuugoryoku's present capacity when using this skill.\nThrough this method, you can increase Kyougen: Five Ceremonial Plays's DMG by a maximum of 200%.",
+        "level": 2
+      },
+      {
+        "name": "Sanban: Moonflower Kusemai",
+        "unlock": "Constellation Lv. 3",
+        "description": "Increases the Level of Kyougen: Five Ceremonial Plays by 3.\nMaximum upgrade level is 15.",
+        "level": 3
+      },
+      {
+        "name": "Yonban: Set Adrift into Spring",
+        "unlock": "Constellation Lv. 4",
+        "description": "When casting Hanega: Song of the Wind, should the Passive Talent \"Jade-Claimed Flower\" be triggered, the character will gain buffs in correspondence to the contacted Elemental Type(s), and also obtain a random untriggered buff. A maximum of 3 such corresponding elemental buffs can exist simultaneously.\nYou must unlock the Passive Talent \"Jade-Claimed Flower\" first.",
+        "level": 4
+      },
+      {
+        "name": "Matsuban: Ancient Illuminator From Abroad",
+        "unlock": "Constellation Lv. 5",
+        "description": "Increases the Level of Hanega: Song of the Wind by 3.\nMaximum upgrade level is 15.",
+        "level": 5
+      },
+      {
+        "name": "Shugen: The Curtains' Melancholic Sway",
+        "unlock": "Constellation Lv. 6",
+        "description": "When the Wanderer actively hits an opponent with Kuugo: Fushoudan while in the Windfavored state, the following effects will occur:\n- Deals an additional instance of Kuugo: Fushoudan at the position hit, dealing 40% of the attack's original DMG. This DMG will be considered Normal Attack DMG.\n- When the Wanderer falls below 40 Kuugoryoku Points, restores 4 Points to him. Kuugoryoku Points can be restored in this manner once every 0.2s. This restoration can occur up to 5 times within one Windfavored duration.",
+        "level": 6
+      }
+    ],
+    "vision_key": "ANEMO",
+    "weapon_type": "CATALYST"
+  },
+  {
+    "name": "Kaedehara Kazuha",
+    "vision": "Anemo",
+    "weapon": "Sword",
+    "nation": "Inazuma"
+  },
+  {
+    "name": "Jean",
+    "vision": "Anemo",
+    "weapon": "Sword",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Xianyun",
+    "vision": "Anemo",
+    "weapon": "Catalyst",
+    "nation": "Liyue"
+  },
+  {
+    "name": "Faruzan",
+    "vision": "Anemo",
+    "weapon": "Bow",
+    "nation": "Sumeru"
+  },
+  {
+    "name": "Lynette",
+    "vision": "Anemo",
+    "weapon": "Sword",
+    "nation": "Fontaine"
+  },
+  {
+    "name": "Sayu",
+    "vision": "Anemo",
+    "weapon": "Claymore",
+    "nation": "Inazuma"
+  },
+  {
+    "name": "Shikanoin Heizou",
+    "vision": "Anemo",
+    "weapon": "Catalyst",
+    "nation": "Inazuma"
+  },
+  {
+    "name": "Venti",
+    "vision": "Anemo",
+    "weapon": "Bow",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Sucrose",
+    "vision": "Anemo",
+    "weapon": "Catalyst",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Xiao",
+    "vision": "Anemo",
+    "weapon": "Polearm",
+    "nation": "Liyue"
+  },
+  {
+    "name": "Charlotte",
+    "vision": "Cryo",
+    "weapon": "Catalyst",
+    "nation": "Fontaine"
+  },
+  {
+    "name": "Wriothesley",
+    "vision": "Cryo",
+    "weapon": "Catalyst",
+    "nation": "Fontaine"
+  },
+  {
+    "name": "Chongyun",
+    "vision": "Cryo",
+    "weapon": "Claymore",
+    "nation": "Liyue"
+  },
+  {
+    "name": "Eula",
+    "vision": "Cryo",
+    "weapon": "Claymore",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Freminet",
+    "vision": "Cryo",
+    "weapon": "Claymore",
+    "nation": "Fontaine"
+  },
+  {
+    "name": "Mika",
+    "vision": "Cryo",
+    "weapon": "Polearm",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Rosaria",
+    "vision": "Cryo",
+    "weapon": "Polearm",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Shenhe",
+    "vision": "Cryo",
+    "weapon": "Polearm",
+    "nation": "Liyue"
+  },
+  {
+    "name": "Kaeya",
+    "vision": "Cryo",
+    "weapon": "Sword",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Kamisato Ayaka",
+    "vision": "Cryo",
+    "weapon": "Sword",
+    "nation": "Inazuma"
+  },
+  {
+    "name": "Layla",
+    "vision": "Cryo",
+    "weapon": "Sword",
+    "nation": "Sumeru"
+  },
+  {
+    "name": "Qiqi",
+    "vision": "Cryo",
+    "weapon": "Sword",
+    "nation": "Liyue"
+  },
+  {
+    "name": "Alhaitham",
+    "vision": "Dendro",
+    "weapon": "Sword",
+    "nation": "Sumeru"
+  },
+  {
+    "name": "Kirara",
+    "vision": "Dendro",
+    "weapon": "Sword",
+    "nation": "Inazuma"
+  },
+  {
+    "name": "Yaoyao",
+    "vision": "Dendro",
+    "weapon": "Polearm",
+    "nation": "Liyue"
+  },
+  {
+    "name": "Kaveh",
+    "vision": "Dendro",
+    "weapon": "Claymore",
+    "nation": "Sumeru"
+  },
+  {
+    "name": "Nahida",
+    "vision": "Dendro",
+    "weapon": "Catalyst",
+    "nation": "Sumeru"
+  },
+  {
+    "name": "Baizhu",
+    "vision": "Dendro",
+    "weapon": "Catalyst",
+    "nation": "Liyue"
+  },
+  {
+    "name": "Tighnari",
+    "vision": "Dendro",
+    "weapon": "Bow",
+    "nation": "Sumeru"
+  },
+  {
+    "name": "Collei",
+    "vision": "Dendro",
+    "weapon": "Bow",
+    "nation": "Sumeru"
+  },
+  {
+    "name": "Fischl",
+    "vision": "Electro",
+    "weapon": "Bow",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Kujou Sara",
+    "vision": "Electro",
+    "weapon": "Bow",
+    "nation": "Inazuma"
+  },
+  {
+    "name": "Lisa",
+    "vision": "Electro",
+    "weapon": "Catalyst",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Yae Miko",
+    "vision": "Electro",
+    "weapon": "Catalyst",
+    "nation": "Inazuma"
+  },
+  {
+    "name": "Beidou",
+    "vision": "Electro",
+    "weapon": "Claymore",
+    "nation": "Liyue"
+  },
+  {
+    "name": "Razor",
+    "vision": "Electro",
+    "weapon": "Claymore",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Dori",
+    "vision": "Electro",
+    "weapon": "Claymore",
+    "nation": "Sumeru"
+  },
+  {
+    "name": "Raiden Shogun",
+    "vision": "Electro",
+    "weapon": "Polearm",
+    "nation": "Inazuma"
+  },
+  {
+    "name": "Cyno",
+    "vision": "Electro",
+    "weapon": "Polearm",
+    "nation": "Sumeru"
+  },
+  {
+    "name": "Keqing",
+    "vision": "Electro",
+    "weapon": "Sword",
+    "nation": "Liyue"
+  },
+  {
+    "name": "Kuki Shinobu",
+    "vision": "Electro",
+    "weapon": "Sword",
+    "nation": "Inazuma"
+  },
+  {
+    "name": "Gorou",
+    "vision": "Geo",
+    "weapon": "Bow",
+    "nation": "Inazuma"
+  },
+  {
+    "name": "Ningguang",
+    "vision": "Geo",
+    "weapon": "Catalyst",
+    "nation": "Inazuma"
+  },
+  {
+    "name": "Arataki Itto",
+    "vision": "Geo",
+    "weapon": "Claymore",
+    "nation": "Inazuma"
+  },
+  {
+    "name": "Navia",
+    "vision": "Geo",
+    "weapon": "Claymore",
+    "nation": "Fontaine"
+  },
+  {
+    "name": "Noelle",
+    "vision": "Geo",
+    "weapon": "Claymore",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Zhongli",
+    "vision": "Geo",
+    "weapon": "Polearm",
+    "nation": "Liyue"
+  },
+  {
+    "name": "Yun Jin",
+    "vision": "Geo",
+    "weapon": "Polearm",
+    "nation": "Liyue"
+  },
+  {
+    "name": "Chiori",
+    "vision": "Geo",
+    "weapon": "Sword",
+    "nation": "Inazuma"
+  },
+  {
+    "name": "Albedo",
+    "vision": "Geo",
+    "weapon": "Sword",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Tartaglia",
+    "vision": "Hydro",
+    "weapon": "Bow",
+    "nation": "Snezhnaya"
+  },
+  {
+    "name": "Yelan",
+    "vision": "Hydro",
+    "weapon": "Bow",
+    "nation": "Liyue"
+  },
+  {
+    "name": "Barbara",
+    "vision": "Hydro",
+    "weapon": "Catalyst",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Mona",
+    "vision": "Hydro",
+    "weapon": "Catalyst",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Neuvillette",
+    "vision": "Hydro",
+    "weapon": "Catalyst",
+    "nation": "Fontaine"
+  },
+  {
+    "name": "Sangonomiya Kokomi",
+    "vision": "Hydro",
+    "weapon": "Catalyst",
+    "nation": "Inazuma"
+  },
+  {
+    "name": "Candace",
+    "vision": "Hydro",
+    "weapon": "Polearm",
+    "nation": "Sumeru"
+  },
+  {
+    "name": "Kamisato Ayato",
+    "vision": "Hydro",
+    "weapon": "Sword",
+    "nation": "Inazuma"
+  },
+  {
+    "name": "Nilou",
+    "vision": "Hydro",
+    "weapon": "Sword",
+    "nation": "Sumeru"
+  },
+  {
+    "name": "Xingqiu",
+    "vision": "Hydro",
+    "weapon": "Sword",
+    "nation": "Liyue"
+  },
+  {
+    "name": "Amber",
+    "vision": "Pyro",
+    "weapon": "Bow",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Lyney",
+    "vision": "Pyro",
+    "weapon": "Bow",
+    "nation": "Fontaine"
+  },
+  {
+    "name": "Yoimiya",
+    "vision": "Pyro",
+    "weapon": "Bow",
+    "nation": "Inazuma"
+  },
+  {
+    "name": "Klee",
+    "vision": "Pyro",
+    "weapon": "Catalyst",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Yanfei",
+    "vision": "Pyro",
+    "weapon": "Catalyst",
+    "nation": "Liyue"
+  },
+  {
+    "name": "Diluc",
+    "vision": "Pyro",
+    "weapon": "Claymore",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Dehya",
+    "vision": "Pyro",
+    "weapon": "Claymore",
+    "nation": "Sumeru"
+  },
+  {
+    "name": "Gaming",
+    "vision": "Pyro",
+    "weapon": "Claymore",
+    "nation": "Liyue"
+  },
+  {
+    "name": "Xinyan",
+    "vision": "Pyro",
+    "weapon": "Claymore",
+    "nation": "Liyue"
+  },
+  {
+    "name": "Hu Tao",
+    "vision": "Pyro",
+    "weapon": "Polearm",
+    "nation": "Liyue"
+  },
+  {
+    "name": "Chevreuse",
+    "vision": "Pyro",
+    "weapon": "Polearm",
+    "nation": "Fontaine"
+  },
+  {
+    "name": "Thoma",
+    "vision": "Pyro",
+    "weapon": "Polearm",
+    "nation": "Inazuma"
+  },
+  {
+    "name": "Xiangling",
+    "vision": "Pyro",
+    "weapon": "Polearm",
+    "nation": "Liyue"
+  },
+  {
+    "name": "Bennett",
+    "vision": "Pyro",
+    "weapon": "Sword",
+    "nation": "Mondstadt"
+  },
+  {
+    "name": "Clorinde",
+    "vision": "Electro",
+    "weapon": "Sword",
+    "nation": "Fontaine"
+  },
+  {
+    "name": "Sethos",
+    "vision": "Electro",
+    "weapon": "Bow",
+    "nation": "Sumeru"
+  },
+  {
+    "name": "Sigewinne",
+    "vision": "Hydro",
+    "weapon": "Bow",
+    "nation": "Fontaine"
+  }
+] 
